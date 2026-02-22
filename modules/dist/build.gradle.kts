@@ -5,7 +5,7 @@ plugins {
 }
 
 bukkitResourceGenerator {
-    main = "kr.hqservice."
+    main = "kr.skh6075.hforestmc."
     name = "${extra["projectName"]}"
     apiVersion = "1.13"
     depend = listOf("HQFramework")
