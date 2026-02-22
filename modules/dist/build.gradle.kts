@@ -7,7 +7,7 @@ plugins {
 bukkitResourceGenerator {
     main = "kr.skh6075.hforestmc."
     name = "${extra["projectName"]}"
-    apiVersion = "1.13"
+    apiVersion = "1.17"
     depend = listOf("HQFramework")
     libraries = excludedRuntimeDependencies()
 }
